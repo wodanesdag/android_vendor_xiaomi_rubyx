@@ -560,32 +560,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/VP9SecureVdecCA.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V1-ndk_platform.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_meow.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/egl/libMEOW_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_data.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_gift.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_qt.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/hw/audio.primary.mt6877.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6877.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/hw/audio.r_submix.mt6877.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6877.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/hw/sound_trigger.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.default.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.14-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.14-impl.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/hw/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.mali.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefaultFpsActor.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrameRecord.so \
+    vendor/xiaomi/rubyx/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHEVCdec_sa.ca7.android.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkSpeechEnh.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNoFpsActor.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTEECommon.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_iir.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/lib_speech_enh.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_speech_enh.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libaal_cust.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_cust.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libaal_key.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_key.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_mtk.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaalservice.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libalsautils-v31.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils-v31.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_param_parser-vnd.so \
@@ -603,32 +585,23 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libawinicsmartpaparse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libawinicsmartpaparse.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbessound_hd_mtk_vendor.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc32_vendor.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libbluetooth_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_mtk.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libbluetooth_mtk_pure.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_mtk_pure.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libdre.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdre.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfgauge_gm30.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libgamehdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgamehdr.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib/libged.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_aux.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libgpud.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpud.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_extra.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libgralloc_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_metadata.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libgralloctypes_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloctypes_mtk.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libgz_gp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgz_gp_client.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libgz_uree.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgz_uree.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libhdrvideo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrvideo.so \
+    vendor/xiaomi/rubyx/proprietary/vendor/lib/libh264dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_sa.ca7.so \
+    vendor/xiaomi/rubyx/proprietary/vendor/lib/libh264enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264enc_sa.ca7.so \
+    vendor/xiaomi/rubyx/proprietary/vendor/lib/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhevce_sb.ca7.android.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libimsg_log.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimsg_log.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_mtk.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_ulit.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libladder.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libmiaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmiaudio.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libmiresample.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmiresample.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmml.so \
+    vendor/xiaomi/rubyx/proprietary/vendor/lib/libmp4enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_sa.ca7.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsbc_mtk.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcutils.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtklimiter_vendor.so \
@@ -638,10 +611,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_sec.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxp_extamp_intf.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_cust_base.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqframework.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqparamparser.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libpqpconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqpconfig.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/librt_extamp_intf.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeechparser_vendor.so \
@@ -649,7 +618,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libteeclientjni_isee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteeclientjni_isee@1.1.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libteei_daemon_vfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteei_daemon_vfs.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalalgo.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libudf.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libvcodec_oal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_oal.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libvcodec_utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_utility.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libvcodecdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv.so \
@@ -660,43 +628,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libvow_ap_test_ha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_ha.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libvow_ap_test_hh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_hh.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libvow_ap_test_nn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_nn.so \
+    vendor/xiaomi/rubyx/proprietary/vendor/lib/libvp8dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8dec_sa.ca7.so \
+    vendor/xiaomi/rubyx/proprietary/vendor/lib/libvp8enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8enc_sa.ca7.so \
+    vendor/xiaomi/rubyx/proprietary/vendor/lib/libvp9dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp9dec_sa.ca7.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libvpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpu.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpu5.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/libvpud_vcodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpud_vcodec.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/mt6877/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libaiselector.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/mt6877/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libdpframework.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/mt6877/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libmtk_drvb.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/mt6877/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libnir_neon_driver.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/mt6877/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libpq_prot.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.audio@7.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@7.1.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.mmagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mmagent@1.0.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.mmagent@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mmagent@1.1.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.0.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.1.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.2.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.3.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.4.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.5.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.6.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.0.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.1.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.0.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.1.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.10.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.10.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.11.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.11.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.12.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.12.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.13.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.13.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.14.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.14.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.2.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.3.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.4.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.5.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.6.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.7.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.8.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.8.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.9.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.9.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib64/APUWareApusysServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareApusysServer.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib64/APUWareUtilsServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareUtilsServer.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib64/APUWareXrpServer_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareXrpServer_v2.so \
@@ -714,7 +656,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rubyx/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib64/hw/consumerir.common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.common.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib64/hw/fingerprint.fpc_isee.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc_isee.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib64/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.so \
@@ -1470,6 +1411,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rubyx/proprietary/vendor/lib64/libcodec2_mtk_c2store.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_c2store.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib64/libcodec2_mtk_vdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_vdec.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib64/libcodec2_mtk_venc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_venc.so \
+    vendor/xiaomi/rubyx/proprietary/vendor/lib64/libcodec2_soft_mtk_alacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_mtk_alacdec.so \
+    vendor/xiaomi/rubyx/proprietary/vendor/lib64/libcodec2_soft_mtk_apedec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_mtk_apedec.so \
+    vendor/xiaomi/rubyx/proprietary/vendor/lib64/libcodec2_soft_mtk_imaadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_mtk_imaadpcmdec.so \
+    vendor/xiaomi/rubyx/proprietary/vendor/lib64/libcodec2_soft_mtk_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_mtk_mp3dec.so \
+    vendor/xiaomi/rubyx/proprietary/vendor/lib64/libcodec2_soft_mtk_msadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_mtk_msadpcmdec.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib64/libcodec2_vpp_dolby_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_dolby_plugin.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib64/libcomposer_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcomposer_ext.so \
     vendor/xiaomi/rubyx/proprietary/vendor/lib64/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconnfem.so \
@@ -1777,9 +1723,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rubyx/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json
 
 PRODUCT_PACKAGES += \
-    ImsService \
     HotwordEnrollmentOKGoogleRISCV \
     HotwordEnrollmentXGoogleRISCV \
+    ImsService \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
@@ -1800,11 +1746,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.media.c2@1_android.hardware.media.c2@1_symlink \
-    libaiselector_libaiselector_symlink32 \
-    libdpframework_libdpframework_symlink32 \
-    libmtk_drvb_libmtk_drvb_symlink32 \
-    libnir_neon_driver_libnir_neon_driver_symlink32 \
-    libpq_prot_libpq_prot_symlink32 \
     fingerprint.fpc_isee_fingerprint.fpc.default_symlink64 \
     fingerprint.goodix_fingerprint.goodix.default_symlink64 \
     libaiselector_libaiselector_symlink64 \
