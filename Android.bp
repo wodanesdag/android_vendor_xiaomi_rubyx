@@ -178,6 +178,13 @@ install_symlink {
 }
 
 install_symlink {
+	name: "libmtk_drvb_libmtk_drvb_symlink32",
+	soc_specific: true,
+	installed_location: "lib/libmtk_drvb.so",
+	symlink_target: "/vendor/lib/mt6877/libmtk_drvb.so",
+}
+
+install_symlink {
 	name: "fingerprint.fpc_isee_fingerprint.fpc.default_symlink64",
 	soc_specific: true,
 	installed_location: "lib64/hw/fingerprint.fpc.default.so",
