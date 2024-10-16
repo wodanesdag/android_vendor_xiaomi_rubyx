@@ -640,7 +640,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-impl-mediatek \
     android.hardware.graphics.allocator@4.0-impl-mediatek \
     android.hardware.graphics.mapper@4.0-impl-mediatek \
-    consumerir.common \
     fingerprint.fpc_isee \
     fingerprint.goodix \
     gatekeeper.beanpod \
