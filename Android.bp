@@ -15848,11 +15848,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmialgoengine.so"],
-			shared_libs: ["liblog", "libsync", "libutils", "libcutils", "libhardware", "libnativewindow", "libEGL", "libion", "libGLESv2", "libgralloc_extra", "android.hardware.graphics.common@1.0", "android.hardware.graphics.common@1.1", "android.hardware.graphics.common@1.2", "android.hardware.graphics.mapper@2.0", "vendor.mediatek.hardware.camera.atms@1.0", "vendor.mediatek.hardware.mtkpower@1.0", "vendor.mediatek.hardware.mtkpower@1.1", "vendor.mediatek.hardware.mtkpower@1.2", "libmtkperf_client_vendor", "libvndksupport", "libhidlbase", "libalCFR", "libalLDC", "libalhLDC", "libarcsoft_beautyshot", "libmpbase", "libarcsoft_high_dynamic_range", "libarcsoft_low_light_hdr", "libmialgo_aio_seg", "libmialgo_ai_vision", "libneuron_runtime.5", "libmiphone_capture_bokeh", "libarcsoft_mf_superresolution", "libmiai_portraitsupernight", "libbeauty_face_interface", "libarcsoft_super_night_raw", "libarcsoft_dualcam_refocus_image", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libutils", "libcutils", "libhardware", "libnativewindow", "libEGL", "libGLESv2", "libgralloc_extra", "libbase", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
-	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
